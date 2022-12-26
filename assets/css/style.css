@@ -31,16 +31,24 @@ h3{
 }
 
 .middle-container {
-    height: 200px;
-    width: 200px;
+    display: block;
+    /* flex-wrap: wrap; */
+    width: 100vw;
     background-color: aquamarine;
 }
+.middle-container img {
+height: 200px;
+width: 200px;
+}
 .bottom-container {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100vw;
     background-color: rgb(3, 90, 101);
 }
 
+.computer {
+    border-radius: 50%;
+}
 .top-cloud{
     position: absolute;
     /* right: 300px;
