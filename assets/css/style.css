@@ -10,6 +10,8 @@ body{
 }
 
 h1{
+    /* 1em = 16px */
+    font-size: 5em;
     font-family: 'Sacramento', cursive;
     margin-top: 0;
 }
@@ -53,7 +55,7 @@ width: 200px;
     position: absolute;
     /* right: 300px;
     top: 50px; */
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 .bottom-cloud{
