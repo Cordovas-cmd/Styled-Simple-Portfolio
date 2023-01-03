@@ -11,17 +11,28 @@ body{
 }
 
 h1{
+    color: #66BFBF;
     /* 1em = 16px  rem is most responsive */
     font-size: 5.6rem;
     font-family: 'Sacramento', cursive;
     margin: 50px auto 0 auto;
+    line-height: 2;
 }
+
 h2{
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3{
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
+}
+
+h3 ,a {
+    color: #11999E
 }
 
 .caption {
@@ -37,6 +48,9 @@ h3{
     position: relative;
 }
 
+.top-container {
+    color: #66BFBF;
+}
 .middle-container {
     display: block;
     /* flex-wrap: wrap; */
